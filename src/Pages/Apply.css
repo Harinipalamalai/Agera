@@ -1,0 +1,148 @@
+.apply26 {
+  height: 150vh;
+  background-image: url(https://img.freepik.com/free-photo/selective-focus-shot-some-wheat-field_181624-4843.jpg?w=1800&t=st=1707970206~exp=1707970806~hmac=b1415dd056df62fadc078eaa3250752db0e7e1c7b45cc6e20bde6607d1a87c06);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  position: relative;
+}
+
+.container26 {
+  margin-top: 60px;
+  backdrop-filter: blur(2px);
+  position: relative;
+  max-width: 710px;
+  width: 100%;
+  background: #a1e8994c;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.reo {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.reo img {
+  height: 50px;
+  width: 50px;
+}
+
+.container26 header {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container26 .form26 {
+  margin-top: 30px;
+}
+.form26 .input-box26 {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box26 label {
+  color: #333;
+}
+.input-box26 input[type="number"] {
+    width: 90%; /* Adjust the width as needed */
+  }
+  .input-box26 input[type="date"] {
+    width: 90%; /* Adjust the width as needed */
+  }
+
+.form26 :where(.input-box26 input, .select-box26) {
+  position: relative;
+  height: 50px;
+  width: 95%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.form26 :where(.input-box262 input, .select-box26) {
+  position: relative;
+  height: 50px;
+  width: 95%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box26 input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form26 .column26 {
+  display: flex;
+  column-gap: 16px;
+  width: 100%;
+}
+.form26 .column262 {
+    display: flex;
+    column-gap: 16px;
+    width: 100%;
+  }
+/* .form26 .gender-box26 {
+  margin-top: 20px;
+} */
+/* .gender-box26 h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form26 :where(.gender-option26, .gender26) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form26 .gender26 {
+  column-gap: 5px;
+}
+.gender26 input {
+  accent-color: rgb(130, 106, 251);
+}
+.form26 :where(.gender26 input, .gender26 label) {
+  cursor: pointer;
+}
+.gender26 label {
+  color: #707070;
+} */
+.address26 :where(input, .select-box26) {
+  margin-top: 15px;
+}
+.form26 button {
+  height: 55px;
+  width: 100%;
+  color: #0d0a0a;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(131, 189, 108);
+}
+.form26 button:hover {
+  background: rgb(154, 140, 224);
+}
+@media screen and (max-width: 500px) {
+  .form26 .column26 {
+    flex-wrap: wrap;
+  }
+  .form26 :where(.gender-option26, .gender26) {
+    row-gap: 15px;
+  }
+}

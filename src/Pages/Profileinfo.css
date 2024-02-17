@@ -1,0 +1,112 @@
+.apply26v{
+    height: 160vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.container26v {
+  margin-top: 10%;
+  position: relative;
+  max-width: 710px;
+  width: 100%;
+  background: #a1e899c3;
+  padding: 35px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.reo2 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.reo2 img {
+  height: 50px;
+  width: 50px;
+}
+.container26v header {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.container26v .form26v {
+  margin-top: 30px;
+}
+.form26v .input-box26v {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box26v label {
+  color: #333;
+}
+.input-box26v input[type="number"] {
+    width: 90%; /* Adjust the width as needed */
+  }
+  .input-box26v input[type="date"] {
+    width: 90%; /* Adjust the width as needed */
+  }
+
+.form26v :where(.input-box26v input, .select-box26v) {
+  position: relative;
+  height: 50px;
+  width: 95%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.form26v :where(.input-box262v input, .select-box26v) {
+  position: relative;
+  height: 50px;
+  width: 95%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 15px;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box26v input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form26v .column26v {
+  display: flex;
+  column-gap: 16px;
+  width: 100%;
+}
+.form26v .column262v {
+    display: flex;
+    column-gap: 16px;
+    width: 100%;
+  }
+
+.address26v :where(input, .select-box26v) {
+  margin-top: 15px;
+}
+.jojov {
+  height: 55px;
+  width: 40%;
+  border-radius: 10px;
+  color: #0d0a0a;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-left: 210px;
+
+  cursor: pointer;
+  background: rgb(147, 216, 102);
+}
+.jojov:hover {
+  background: rgb(23, 203, 125);
+}
+@media screen and (max-width: 500px) {
+  .form26v .column26v {
+    flex-wrap: wrap;
+  }
+
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.backq {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/columns-coins-grass_155003-12338.jpg?w=1800&t=st=1706204287~exp=1706204887~hmac=3ec336dd96ca17bc696ef72d47fb4280f9411d39588329f6edd36d356b274a3c);
+    position: absolute;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.linkpo {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logq {
+    justify-content: center;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 350px; /* Adjusted maximum width for smaller screens */
+    height: 65%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto; /* Adjusted margin for better centering */
+    padding: 10px 10px;
+}
+
+.h1n {
+    top: 5px;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+}
+
+.inputbq {
+    margin: 30px 0;
+    position: relative;
+    width: 100%;
+}
+
+.inputbq label {
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    transform: translateY(-110%);
+    color: #000000;
+    font-size: 1.2em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputbq .inp1 {
+    margin-top: 12px;
+    width: 90%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    padding: 0 35px 0 5px;
+    color: #0c0c0c;
+    /* background-color: white; */
+    background-color: #cbf7cd;
+    border-radius: 10px;
+}
+
+.butq {
+    width: 80%; /* Adjusted width for better fit */
+    height: 50px;
+    border-radius: 30px;
+    background: #0e0606;
+    color: #a7d183;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.regq {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .logq {
+        width: 80%;
+        height: 500px;
+    }
+
+    .h1n {
+        font-size: 1.5em;
+    }
+
+    .butq {
+        width: 80%;
+    }
+}

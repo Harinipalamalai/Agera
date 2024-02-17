@@ -1,0 +1,251 @@
+/* .centeredContainer {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ha {
+    backdrop-filter: blur(5px);
+    background-color: rgba(203, 249, 193, 0.295);
+    border-radius: 26px;
+    margin: 30px;
+    width: 700px;
+    height:380px;
+    padding:80px ;
+    text-align:center;
+    margin-left: 2%;
+    margin-top: 50px;
+    text-align: center;
+
+  }
+  
+  .centeredText {
+    display: inline-block;
+    margin: 0 auto;
+    font-family: "Moirai One", system-ui;
+    font-weight: 1000;
+    font-style: normal;
+  font-size: 120px;
+  color:green;
+  }
+  .ba{
+    font-family: "Edu SA Beginner", cursive;
+    font-size: 30px;
+  }
+  .userbut{
+    width: 110px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5cdf25 0, #18b241 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(185, 246, 92, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.userbut:focus {
+  box-shadow: #60e03c 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.userbut:hover {
+  box-shadow: rgba(182, 211, 53, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #99e03c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.userbut:active {
+  box-shadow: #7be03c 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.Adminbut{
+    width: 110px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5cdf25 0, #18b241 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(185, 246, 92, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.Adminbut:focus {
+  box-shadow: #60e03c 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.Adminbut:hover {
+  box-shadow: rgba(182, 211, 53, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #99e03c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.Adminbut:active {
+  box-shadow: #7be03c 0 3px 7px inset;
+  transform: translateY(2px);
+} */
+
+
+/* Default styles for larger screens */
+.centeredContainer {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ha {
+  backdrop-filter: blur(5px);
+  background-color: rgba(203, 249, 193, 0.295);
+  border-radius: 26px;
+  margin: 30px;
+  width: 700px;
+  height: 380px;
+  padding: 80px;
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.centeredText {
+  display: inline-block;
+  margin: 0 auto;
+  font-family: "Moirai One", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 120px;
+  color: green;
+}
+
+.ba {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 30px;
+}
+.kaya{
+  height: 20px;
+  width: 20px;
+margin-right: 10px;
+}
+
+.userbut,
+.Adminbut {
+  width: 110px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5cdf25 0, #18b241 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(185, 246, 92, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+    rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.userbut:focus,
+.Adminbut:focus {
+  box-shadow: #60e03c 0 0 0 1.5px inset,
+    rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+    #3c4fe0 0 -3px 0 inset;
+}
+
+.userbut:hover,
+.Adminbut:hover {
+  box-shadow: rgba(182, 211, 53, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+    #99e03c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.userbut:active,
+.Adminbut:active {
+  box-shadow: #7be03c 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .ha {
+    width: 80%;
+    padding: 40px;
+  }
+
+  .centeredText {
+    font-size: 90px;
+  }
+
+  .ba {
+    font-size: 20px;
+  }
+
+  .userbut,
+  .Adminbut {
+    width: 30%;
+    font-size: 16px;
+  }
+}
+
+/* Add more media queries for other screen sizes if needed */

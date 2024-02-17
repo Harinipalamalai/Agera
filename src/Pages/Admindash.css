@@ -1,0 +1,125 @@
+.clas {
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+  padding-top: 10%;
+  background-image: url(https://img.freepik.com/free-photo/coin-wooden-table_1150-17725.jpg?w=1800&t=st=1708088699~exp=1708089299~hmac=658fc3bb16997bf2699a3f98d991add2d9677ebb696895e0ea0843b4b30c20fa);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; 
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+}
+.navgh {
+  margin-top: -150px;
+  display: flex;
+  gap: 10%;
+}
+.navlinksgh a {
+  padding: 10px;
+  display: inline-block;
+  color: #333;
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+.navlinksgh a:hover {
+  background-color: #aac799;
+        color: #fff;
+}
+.undergh{
+  pointer-events: none;
+  cursor: default;
+  color: initial;
+  background-color: none;
+  text-decoration-color: #1e8449;
+  text-decoration-line:overline;    
+  }
+
+.navgh .navlinksgh {
+width: 80%;
+padding: 30px;
+display: flex;
+align-items: baseline;
+gap: 6%;
+font-size: 25px;
+list-style: none;
+padding-left: 85vh;
+}
+.views {
+  max-width: 1500px;
+  background-color: #ffffffaf;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#view {
+  padding: 20px;
+}
+
+.admintable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admintable th,
+.admintable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;  
+  width: 10%;
+
+}
+
+.admintable th {
+  background-color: #dce675;
+  color: #090909;
+}
+
+.admintable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admintable tbody tr:hover {
+  background-color: #3b3f3b97;
+}
+
+.h2ad {
+  font-size: 25px;
+  color: #111010;
+  margin-bottom: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.admintable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admintable th,
+.admintable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admintable th {
+  background-color: #f2f2f2;
+}
+
+.admintable button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.admintable button:hover {
+  background-color: #45a049;
+}

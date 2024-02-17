@@ -1,0 +1,107 @@
+.navghs {
+  position: fixed;
+  top: -6px;
+  /* left: 30px; Adjusted to the left */
+  display: flex;
+  gap: 10%;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1000; /* Added z-index to ensure it's above other elements */
+}
+
+.navghs .navlinksghs {
+  width: 80%;
+  padding: 30px;
+  display: flex;
+  align-items: baseline;
+  gap: 6%;
+  font-size: 25px;
+  list-style: none;
+  padding-left: 78vh;
+  /* margin-top: -350px; */
+}
+
+.navlinksghs a {
+  padding: 10px;
+  display: inline-block;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navlinksghs a:hover {
+  background-color: #aac799;
+  color: #fff;
+}
+
+.underghs {
+  pointer-events: none;
+  cursor: default;
+  color: initial;
+  background-color: none;
+  text-decoration-color: #1e8449;
+  text-decoration-line: overline;
+}
+
+.apply26g {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(https://www.greenbiz.com/sites/default/files/styles/16_9_cropped/public/2020-09/foodsystem_sstock.jpg?itok=6HMf_LYu);
+}
+
+.container26g {
+  background-color: #97d96bda;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center; /* Center the content in the container */
+  margin: auto; /* Center the container horizontally */
+  margin-top: 280px; /* Adjusted to create space from the top */
+}
+
+.container26g header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form26g {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box26g {
+  margin-bottom: 20px;
+}
+
+.input-box26g label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  /* margin-right: -10px; */
+  margin-right: 335px;
+}
+
+.input-box26g input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.msg {
+  margin-left: 150px;
+  width: 90px;
+  background-color: #7cdf6c;
+  color: #0a0909;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}

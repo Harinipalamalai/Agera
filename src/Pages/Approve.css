@@ -1,0 +1,79 @@
+.clasnm {
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+  padding-top: 10%;
+  background-image: url(https://img.freepik.com/free-photo/coin-wooden-table_1150-17725.jpg?w=1800&t=st=1708088699~exp=1708089299~hmac=658fc3bb16997bf2699a3f98d991add2d9677ebb696895e0ea0843b4b30c20fa);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; 
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+}
+
+.viewsnm {
+  max-width: 1500px;
+  background-color: #ffffffaf;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#viewnm {
+  padding: 20px;
+}
+
+.admintablenm {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admintablenm th,
+.admintablenm td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;  
+  width: 10%;
+
+}
+
+.admintablenm th {
+  background-color: #dce675;
+  color: #090909;
+}
+
+.admintablenm tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admintablenm tbody tr:hover {
+  background-color: #3b3f3b97;
+}
+
+.h2adnm {
+  font-size: 25px;
+  color: #111010;
+  margin-bottom: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.admintablenm {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admintablenm th,
+.admintablenm td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admintablenm th {
+  background-color: #f2f2f2;
+}
+

@@ -1,0 +1,141 @@
+.services-container {
+    background-image: url(https://morningchores.com/wp-content/uploads/2020/12/budget-food-garden.jpg);
+   height: 130vh;
+    background-size: cover;
+  
+  } 
+  .navi4 {
+    position: absolute;
+    top: 10px; 
+    left: 62%; 
+    width: 35%;
+    gap:30px;
+    color: rgb(4, 3, 3);
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navi4 a:hover{
+    background-color: #aac799;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.no-hover{
+  pointer-events: none;
+  cursor: default;
+  color: initial;
+  background-color: none;
+  text-decoration-color: #090c0a;
+  text-decoration-line:overline;
+  
+}
+.homeicon{
+    padding-top: 10px;
+    padding-left: 25px;
+    height: 50px;
+    width: 50px;
+}
+.navi4 a{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+
+.academy {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-me {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.academy .about-me .event1,
+.academy .about-me .event2,
+.academy .about-me .event3,
+.academy .about-me .event4,
+.academy .about-me .event5,
+.academy .about-me .event6,
+.academy .about-me .event7,
+.academy .about-me .event8,
+.academy .about-me .event9,
+.academy .about-me .event10  {
+  background-color: #94e68ec1;
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #101110;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.academy .about-me .event1:hover,
+.academy .about-me .event2:hover,
+.academy .about-me .event3:hover,
+.academy .about-me .event4:hover,
+.academy .about-me .event5:hover,
+.academy .about-me .event6:hover,
+.academy .about-me .event7:hover,
+.academy .about-me .event8:hover,
+.academy .about-me .event9:hover,
+.academy .about-me .event10:hover {
+  transform: scale(1.05);
+}
+
+.event1 img,
+.event2 img,
+.event3 img,
+.event4 img,
+.event5 img,
+.event6 img,
+.event7 img,
+.event8 img,
+.event9 img,
+.event10 img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.para {
+  margin-top: 10px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.button-33 {
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #82e36e;
+  border-radius: 10px;
+  border: 0.2px solid #101110;
+  color: rgb(6, 2, 20);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Libre Caslon Text', sans-serif;
+  padding: 17px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  /* box-shadow: rgba(25, 111, 177, 0.35) 0 -25px 18px -14px inset, rgba(51, 18, 132, 0.25) 0 1px 2px,
+    rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px; */
+  transform: scale(1.05) rotate(-1deg);
+}

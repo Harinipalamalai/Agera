@@ -1,0 +1,90 @@
+.clasb {
+    background-image: url(https://img.freepik.com/free-photo/woman-s-hand-is-holding-many-coins_1150-17736.jpg?w=1800&t=st=1708090216~exp=1708090816~hmac=9e0c0040e9515b269a527821ae7e1cb064a8933026fb68bd66f24985944788d8);
+    height: 100vh;
+    padding-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: auto; 
+    background-color: #f4f4f4; 
+    padding: 20px;
+  }
+  .navopu {
+    display: flex;
+    gap: 10%;
+    position: absolute; 
+    top: 0;
+    width: 100%;
+    z-index: 2; 
+  }
+  .navlinksopu a {
+    color: black;
+    padding: 10px;
+  }
+  
+  .navlinksopu a:hover {
+    background-color: #aac799;
+    color: #fff;
+  }
+  
+  .underopu {
+    pointer-events: none;
+    cursor: default;
+    color: initial;
+    background-color: none;
+    text-decoration-color: #1e8449;
+    text-decoration-line: overline;
+  }
+  
+  .navopu .navlinksopu {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: baseline;
+    gap: 6%;
+    font-size: 25px;
+    list-style: none;
+    padding-left: 85vh;
+  }
+  
+  .adminbackb {
+    background-color: #ffffffc7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 150px;
+  }
+  
+  .viewbackb {
+    text-align: center;
+  }
+  
+  .h2adb {
+    font-size: 20px;
+    color: #131111;
+  }
+  
+  .viewsb {
+    margin-top: 20px;
+  }
+  
+  .admintableb {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .admintableb th, .admintableb td {
+    border: 1px solid #ddd; /* Set your desired border color */
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .admintableb th {
+    background-color: #92e8b3; /* Set your desired header background color */
+  }
+  
+  .admintableb tbody tr:hover {
+    background-color: #f5f5f5; /* Set your desired hover background color */
+  }
+  

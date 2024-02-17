@@ -1,0 +1,111 @@
+*
+{
+    font-family: Georgia, serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight:bold ;
+}
+.backq25
+{
+    height: 102vh;
+    width: 101%;
+    background-image: url(https://img.freepik.com/free-photo/columns-coins-grass_155003-12338.jpg?w=1800&t=st=1706204287~exp=1706204887~hmac=3ec336dd96ca17bc696ef72d47fb4280f9411d39588329f6edd36d356b274a3c);
+    position: absolute;
+    background-size: cover;
+    margin-top: -11px;
+    margin-left: -10px;
+    padding: 0;
+    display: flex;
+}
+.linkpo{
+    text-decoration: none;
+    color: #000000;
+}
+.logq25
+{
+
+    justify-content: center;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+    width:390px;
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    margin-left: 550px;
+    margin-top:110px;
+
+}
+.social25{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+  }
+
+.h1n25{
+    top:5px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+.inputbq25
+{
+    margin-top: 260px;
+    position: relative;
+    margin: 30px 0;
+    width: 0px;
+    border-bottom: 2px solid #000000;
+}
+.inputbq25 label
+{
+    position: absolute;
+    top:  12px;
+    left: 5px;
+    transform: translateY(-110%);
+    color: #000000;
+    font-size: 1.4em;
+    pointer-events: none;
+    transition: 500s;
+}
+.adminsolo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputbq25 input
+{
+    margin-top: 12px;
+    width: 240px;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    padding: 0 35px 0 5px;
+    color:#060804;
+    background-color: #cbf7cd;
+    border-radius: 10px;
+}
+.butq25
+{
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    background: #0e0606;
+    color: #a7d183;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+}
+.regq25
+{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
